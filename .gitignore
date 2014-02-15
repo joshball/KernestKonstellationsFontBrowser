@@ -13,3 +13,9 @@ results
 
 npm-debug.log
 node_modules
+
+# Ignore the fonts dir
+/fonts
+
+# Ignore .idea
+/.idea

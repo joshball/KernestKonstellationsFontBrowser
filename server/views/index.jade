@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    h1 #{locals.title}
+
+    p
+        a(href='https://garrickvanburen.com/') Garrick van Buren
+        |   had a sweet deal with AppSumo quite a while ago, where you could get all of his fonts (and new ones to come)
+        | You can still get them
+        a(href='http://konstellations.kernest.com/') here.
+    p.
+        I wanted a way to quickly browse them all, so I created a quick express project lets you grab your fonts and
+        serves them up. (Of course, I am not including the fonts. You have to buy them yourselves, but if you do, just
+        drop them in 'fontpages' directory and rerun it.
+
+    ul
+      each fap in locals.kFonts
+        li
+          a(href=fap.konstellationRoute)
+            = fap.konstellation

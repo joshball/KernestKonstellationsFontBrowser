@@ -1,0 +1,32 @@
+{
+    "name": "KernestKonstellationsFontBrowser",
+    "version": "0.0.1",
+    "description": "Quick and dirty way to navigate the Kernest Konstellations fonts I have (from http://kernest.com/). Font's not included. ;-)",
+    "main": "server/server.js",
+    "dependencies": {
+        "express": "~3.4.8",
+        "glob": "~3.2.8",
+        "jade": "~1.1.5",
+        "q": "~1.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "nodemon server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/joshball/KernestKonstellationsFontBrowser.git"
+    },
+    "keywords": [
+        "Kernest",
+        "Konstellations",
+        "fonts"
+    ],
+    "author": "Joshua Ball <joshua.g.s.ball@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/joshball/KernestKonstellationsFontBrowser/issues"
+    },
+    "homepage": "https://github.com/joshball/KernestKonstellationsFontBrowser"
+}
